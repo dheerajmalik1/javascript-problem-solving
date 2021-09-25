@@ -40,9 +40,12 @@ function checkUniqueIntegerArray(arr) {
  */
 
 function removeDuplicateEntries(arr) {
-      cl(arr);
+      const allIdsArr = arr.map(ele => ele.id);
+      cl(allIdsArr);
+      //return new Set(arr)
+      //return arr.filter((ele, i) => arr.indexOf(ele) == i);
 }
 
 let arrR = [{ id: 1, name: "dhee" }, { id: 2, name: "popo" }, { id: 1, name: "dhee" }];
-
-removeDuplicateEntries(arrR);
+//let arrR = [1, 2, 2, 2, 77, 8, 87, 98998, 5, 4, 6, 5, 7, 2, 3, 6, 975, 2, 48, 4, 1, 1];
+cl(removeDuplicateEntries(arrR));
