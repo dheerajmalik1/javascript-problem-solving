@@ -59,7 +59,7 @@ function removeDuplicateEntries(arr) {
 
 let arrR = [{ id: 1, name: "dhee" }, { id: 2, name: "popo" }, { id: 1, name: "dhee" }];
 //let arrR = [1, 2, 2, 2, 77, 8, 87, 98998, 5, 4, 6, 5, 7, 2, 3, 6, 975, 2, 48, 4, 1, 1];
-cl(removeDuplicateEntries(arrR));
+// cl(removeDuplicateEntries(arrR));
 
 /**
  * solution by aditya
@@ -81,3 +81,31 @@ cl(removeDuplicateEntries(arrR));
  * from()
  * indexOf()
  */
+
+
+
+
+/**
+ * find count of each unique alphabets in a string for eg - missisippi
+ */
+
+function uniqueOccuranceChars(str) {
+      let arrEkstr = str.split("");
+      let thisMap = new Map();
+      arrEkstr.map((ele, i) => {
+
+            if (arrEkstr.indexOf(ele) == i) {
+                  thisMap.set(ele, 1);
+            }
+            else {
+                  let k = thisMap.get(ele);
+                  k = k + 1;
+                  thisMap.set(ele, k);
+            }
+      }
+      )
+      return thisMap;
+}
+// cl(uniqueOccuranceChars("aabbCCddEEefF"));
+
+// to conver charcter to its ascii value we can use str.charCodeAt(index) OR "a".charCodeAt() like this
