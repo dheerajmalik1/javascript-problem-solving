@@ -12,7 +12,7 @@ function cl(value) {
  * find count of each unique alphabets in a string for eg - missisippi
  * Check if the string has any repeating character within it, if yes return true else return false(isogram?)
  * check if the given array has unique integers or not
- * Fidelity internation -- String encryption asci to char and car to asci
+ * Fidelity international -- String encryption asci to char and car to asci
  * 
  */
 
