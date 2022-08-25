@@ -109,3 +109,6 @@ function uniqueOccuranceChars(str) {
 // cl(uniqueOccuranceChars("aabbCCddEEefF"));
 
 // to conver charcter to its ascii value we can use str.charCodeAt(index) OR "a".charCodeAt() like this
+
+
+//this(above) was done on sept last year ie sept 2021.. need to revise these qstns and concepts agin
