@@ -1,9 +1,4 @@
-// import logo from './logo.svg';
-// import './App.css';
 
-
-
-//application -  
 //form - input box, add items
 //list - completed and delete item button along with item
 
